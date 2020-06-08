@@ -20,4 +20,11 @@ The scripts are nor meant for commercial purposes, I allow usage for commercial 
 
 ## Scripts
 Current Scripts:
+* ``Capacitance.js`` - (NOT TESTED!) Is a script to automatically measure and calculate the capacitance of a unpolarized capacitor in an RC (Resistor-Capacitor) voltage divider.
 * ``Inductance.js`` - Is a script to automatically measure and calculate the inductance of an inductor in an RL (Resistor-Inductor) voltage divider.
+
+## Addendum
+You can post issues and pull-requests, and while I will look at them and might fix some issues and accept pull requests, it is not a project I will take much care of.
+They are mostly written by me for me, so I will not modify them for a more general use case and I will most likely not take requests for scripts.
+
+Feel free to fork the project and issue pull-requests if you think a script can be improved.
