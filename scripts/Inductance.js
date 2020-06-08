@@ -3,7 +3,8 @@
  * 
  * The script measures the input and output voltage of an RL Voltage divider / Filter to determine the Inductance
  * Use the MConf object for settings (see comments for more info)
- * To setup the measurement open a Wavegen tab and a Scope tab ("Wavegen1" and "Scope1")
+ * To setup the measurement open a Wavegen tab and a Scope tab ("Wavegen1" and "Scope1").
+ * Make sure the Scope is setup correctly for the Measurement (Trigger, Ranges, Channels,...)
  *
  * Setup the following Circuit: 
  *
