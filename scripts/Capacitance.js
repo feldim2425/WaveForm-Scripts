@@ -79,8 +79,8 @@ wait(1);
 var sampleSum_in=0;
 var sampleSum_out=0;
 for(var i = 0; i < MConf.samples; i++) {
-    var mOut = ScopeChannel_out.measure("Maximum");
-    var mIn = ScopeChannel_in==null ? MConf.amplitude : ScopeChannel_in.measure("Maximum"); 
+    var mOut = ScopeChannel_out.measure("Amplitude");
+    var mIn = ScopeChannel_in==null ? MConf.amplitude : ScopeChannel_in.measure("Amplitude"); 
     sampleSum_out += mOut;
     sampleSum_in += mIn;
     print("Sample #"+(i+1)+" -> Out: "+mOut+"V / In: "+mIn+"V");
